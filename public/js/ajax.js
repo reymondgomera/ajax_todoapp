@@ -207,14 +207,11 @@ const remarksDelete = async e => {
 
 const showMessage = (isError, message, bgColor) => {
     // show message in an asynchronous manner
+    const messageToast = document.querySelector('#message-toast');
 
     Promise.resolve()
         .then(() => {
             // show message
-            return Promise.resolve();
-        })
-        .then(() => {
-            const messageToast = document.querySelector('#message-toast');
             // make classlist into an array
             const classList = messageToast.className.split(' ');
 
@@ -233,6 +230,9 @@ const showMessage = (isError, message, bgColor) => {
                 messageToast.className = finalClass;
             }
 
+            return Promise.resolve();
+        })
+        .then(() => {
             if (isError != true) {
                 setTimeout(() => {
                     // reload the page
