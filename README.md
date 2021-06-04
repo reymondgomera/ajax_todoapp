@@ -1,5 +1,9 @@
 # AJAX NODEJS EXPRESS TODO APP
 
+Screen Shot:
+
+![Ajax Todo App](./ajax_todoapp_screenshot.JPG)
+
 Technology Use:
 
 -   **AJAX Calls** - Fetch API
