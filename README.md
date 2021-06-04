@@ -12,6 +12,6 @@ Features:
 -   **Add todo** - Enables to add todo.
 -   **Edit todo** - Enable to change the description of a spicific todo.
 -   **Update remarks** - Enables to add update remarks of a todo from `In Progress` to `Done` or **vice versa**.
--   **Edit todo** - Enable to delete a spicific todo.
+-   **Delete todo** - Enable to delete a spicific todo.
 
 ###### &nbsp;&nbsp;&nbsp;Github Repository: https://github.com/reymondgomera/ajax_todoapp.git
